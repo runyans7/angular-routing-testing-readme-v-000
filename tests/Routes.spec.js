@@ -14,6 +14,7 @@ describe('Routes', function () {
 			state = $state.get('settings');
 
 			expect(state.url).toEqual('/settings');
+			
 		});
 	});
 });
